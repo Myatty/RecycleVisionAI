@@ -1,0 +1,60 @@
+ torch_env
+
+ images\train
+images/train/non_recyclable
+images/train/recyclable
+ recycle_classifier.pth
+
+
+# Byte-compiled Python files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+torch_venv/
+env/
+venv/
+*.env
+
+# PyTorch model checkpoints and temporary files
+*.pth
+*.ckpt
+*.h5
+
+# Logs and debugging
+*.log
+*.out
+*.err
+*.txt
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache files
+*.cache
+*.pkl
+*.joblib
+
+# Dataset and uploads
+datasets/
+uploads/
+*.csv
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+
+# Visual Studio Code
+.vscode/
+
+dist/
+build/
+
